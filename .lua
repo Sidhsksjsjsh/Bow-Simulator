@@ -4,7 +4,7 @@ local T1 = wndw:Tab("Main")
 local T2 = wndw:Tab("Training")
 local T3 = wndw:Tab("Hatch")
 
-local workspace = game:GetServie("Workspace")
+local workspace = game:GetService("Workspace")
 local var = {
   shoot = false,
   zone = {"Easter"},
